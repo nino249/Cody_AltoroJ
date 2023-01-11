@@ -1,7 +1,7 @@
 
 plugins {
 	id "war"
-	id 'nu.studer.credentials' version '2.1'
+	// id 'nu.studer.credentials' version '2.1'
 	// id "com.hcl.security.appscan" version "1.0.8"
 }
 
