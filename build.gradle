@@ -2,7 +2,7 @@
 plugins {
 	id "war"
 	id 'nu.studer.credentials' version '2.1'
-	id "com.hcl.security.appscan" version "1.0.8"
+	// id "com.hcl.security.appscan" version "1.0.8"
 }
 
 //webAppDirName = 'WebContent'
@@ -44,10 +44,11 @@ war {
 	exclude 'WEB-INF/lib/**/*.jar'
 }
 
+/*
 appscanSettings {
 	irxName="IntelliJ_Scan"
 	appId="1ee58dd1-522f-4ec2-bb7d-0ad19f4b23de"
 	appscanKey=credentials.appscanKey
 	appscanSecret=credentials.appscanSecret
 }
-
+*/
